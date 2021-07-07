@@ -1,34 +1,24 @@
-body{
-    background-size: cover;
+body
+{
+background-position: center;
+background-size: cover;
 }
 
-.heading{
-    width: 100%;
-    font-size: 25px;
-    margin: 0px;
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
 }
 
-#start,#status,#number_of_objects{
-    font-size: 20px;
+#status , #number_of_objects
+{
+font-size: 18px;
 }
 
-.footer_div{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: blue;
-    color: white;
-    text-align: center;
-    line-height: 3;
-}
-
-canvas{
-    border: white 3px solid;
-    border-radius: 20px;
-    box-shadow: 5px 5px 20px white;
-}
-
-#starts{
-  background-color: azure;
-  width: 20%;
+canvas
+{
+box-shadow: 5px 5px 5px lightgrey;
+border-radius: 10px;
+margin-top: 180px;
 }
